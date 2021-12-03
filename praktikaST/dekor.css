@@ -1,0 +1,49 @@
+.Vxod{
+    margin-left: 1400px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.vxod{
+    text-decoration: none;
+    color: #3e3e3e;
+}
+.dab{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(1, 300px);
+    grid-gap: 55px;
+}
+.knigi{
+    display: grid;
+    grid-template-columns: repeat(3, 420px);
+    grid-template-rows: repeat(1, 700px);
+    grid-gap: 40px;
+
+}
+.avi{
+    border: 1px #3e3e3e solid;
+    width: 400px;
+    text-align: center;
+    background-color: #e3d0d0;
+    color: #3e3e3e;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+}
+.avi p{
+    font-size: 12px;
+    width: 310px;
+    padding-left: 45px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 150px;
+    overflow-y: scroll;
+}
+
+h3{
+    font-size: 16px;
+}
+h4{
+    margin-top: -8px;
+}
+
